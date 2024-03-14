@@ -439,7 +439,7 @@ const EditCourseModal: React.FC<{
                 <div>
                   <Label>Tên khóa học</Label>
                   <TextInput
-                    name="name"
+                    name="title"
                     className="mt-1"
                     onChange={handleChange}
                     value={formData.title}
