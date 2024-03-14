@@ -610,7 +610,7 @@ const CourseRow: React.FC<{
         <img src={data?.image} />
       </Table.Cell>
       <Table.Cell className="whitespace-nowrap p-4 text-base font-medium text-gray-900 ">
-        {data?.price.toLocaleString('us-US', { style: 'currency', currency: 'VND', })}
+        {data?.price.toLocaleString('en-US', { style: 'currency', currency: 'VND', })}
       </Table.Cell>
       <Table.Cell className="whitespace-nowrap p-4 text-base font-medium text-gray-900 ">
         {data?.discount.toFixed(1)}
